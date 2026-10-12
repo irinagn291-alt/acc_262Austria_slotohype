@@ -1,0 +1,16 @@
+Hypogeum is a once-a-day check-in for people who will do one action a day to go deeper, not a list that advances itself. Each day you align one pin on today's plate.
+
+• Align today's pin — one pin per calendar day on the plate you hold
+• Three pin seats on today's plate; the open seat reads Align
+• Three pins in a row open the door and you drop one level
+• A missed day clears the pins on the plate you hold
+• Backslide — three missed days in a row lift you one level and lock the door above; points stay
+• Weekly prize on every fifth level (Level 4, Level 9, Level 14, and so on); five pins in the device's calendar week open it. The pin that opens it is worth 20 points; a usual pin is worth 10
+• NOW, POINTS, RANK, and RUN on the shaft rail
+• Journal of dated pins, locked weekly prizes, and backslides, with Farthest
+• Standing — held level, farthest reach, Pins, Streak, Longest streak
+• Daily reminder at a chosen time. The notification title is Align today's pin and the body is Today's plate is waiting.
+• Haptics on a seated pin
+• Contact, Show the descent again, and Reset shaft
+
+Marks, levels, points, reminder time, and haptics stay on this device.

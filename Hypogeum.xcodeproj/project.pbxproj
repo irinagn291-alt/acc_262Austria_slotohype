@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16FCF9B372E3F648D115F43A /* Delver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41599133637E3A06074203 /* Delver.swift */; };
+		1837A6DDDE3C8A0638F9B0C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499207CF4F0462BA67AA89FE /* ContentView.swift */; };
+		1CA6FE5159DE5E20607B07CE /* Chrome.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2915CB025F123404028F1E6D /* Chrome.metal */; };
+		2B03C5A1C3500AA3D2A3D973 /* HeroSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459B46F3675BA299380F30C1 /* HeroSheet.swift */; };
+		2DF231693471BD01CAABBB47 /* PinCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A44D65508997C55C24AC5 /* PinCount.swift */; };
+		3416E0305ABD33EE1E409D06 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF08B1932D41E9F8C63E560 /* ReviewLaunch.swift */; };
+		3692CA433B2848F45D51E491 /* VaultWeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378BEAE326A52738458209A /* VaultWeekTests.swift */; };
+		3DB7B118935B3717303260AA /* LockplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A132DDCE4581527BA2C699DD /* LockplateView.swift */; };
+		40B53B034B140F253DA92BF6 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B4181F05BFC60F434331C3 /* Level.swift */; };
+		4BC68CBB38C1E0CC8EE8528F /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F0F825D26CF8B21630729 /* DesignTokens.swift */; };
+		4D96F87D5B22512159673FF5 /* DayKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C623EE8249D0E27335FC01 /* DayKey.swift */; };
+		522A7949C638EB3E3A981954 /* ShaftStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E58410BF8B2BE9DF9E8A6E /* ShaftStoreError.swift */; };
+		6B942F3DBF1F451CBE362272 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966099A1190594DFDF9A9F2 /* Statement.swift */; };
+		6D322ABF627F35BD97E77703 /* JournalSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A23495A6542F343981D93B /* JournalSheet.swift */; };
+		7A2515365B0DBB2B27B8FECC /* ChromeTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E4C00093B872E8C7C0D514 /* ChromeTokens.swift */; };
+		7A6B6D55E095B14833C425E4 /* HypogeumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98989D0FF6EE20DE18A28739 /* HypogeumApp.swift */; };
+		7F4BE0508AD83C5A59A097FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C75D5B4536102FE0776E6AC /* AppDelegate.swift */; };
+		80FEFB07C706B3A9E2C30A5B /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931E449E3CD1E195CF2B131 /* SettingsSheet.swift */; };
+		833E7321269CF1BEE728751A /* Hatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752BE62DE5AD0D80D58CDFA7 /* Hatch.swift */; };
+		87B23192B3B8DCD2D27DC563 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484A1A324D2569904A9FD4A /* APIConfig.swift */; };
+		8D1178F581AEF61F42C24CB2 /* WeekWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB9D574B268D6808D6F0CC /* WeekWindow.swift */; };
+		8DDC726F9B086E3E0DE336C6 /* ShaftSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD36630E225A4AFA9075B8 /* ShaftSession.swift */; };
+		8F3C0BFF4C942046B4EF7236 /* Vault.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC542F52C15432D91536E4D9 /* Vault.swift */; };
+		8F424C71DEF8D933128B1BF4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C0F3BF63E43FD42FCD07DF0B /* Alamofire */; };
+		96C59601CD01A5463CCB4590 /* BackslideRuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD07993CD042F6913553419 /* BackslideRuleTests.swift */; };
+		9B6B584C80B340C19A5DCF01 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 1916AE50BD342CAE61024A41 /* DequeModule */; };
+		A1CBFBD5C46865AE35775A95 /* VaultWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F167B2DF6B719B753C0621B /* VaultWeek.swift */; };
+		A3FCD689279EDBA35448668A /* TumblerEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65372770C0DB37563AE72D /* TumblerEngine.swift */; };
+		AC9719BF2FE8953BCD2E5D48 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A55765D971C90FC5B189E1 /* Migration.swift */; };
+		BAE2D22E7C84CF27F1CEA63D /* ShaftDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E635F523F2DF368C9B729 /* ShaftDatabase.swift */; };
+		C07BF4BAF5C50B4EF41C1B01 /* DayKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E556A92C802BDE2ECB128311 /* DayKeyTests.swift */; };
+		C73EE6892BEBBA6FC60387F7 /* BackslideRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5334D2A205D0BE6C59C22F /* BackslideRule.swift */; };
+		CF16C95160DD8807AE2E5C4A /* Lockplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EFDD6DCE42F2B9367DBE9 /* Lockplate.swift */; };
+		D0C856151F1663C1696DB03A /* BackslideDepthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AF327F1A221AC6DF6B6109 /* BackslideDepthView.swift */; };
+		D95F56D800A0CB7359C7D02B /* ReviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5032B5F42E4B47C3FD4034A6 /* ReviewScreen.swift */; };
+		D98E3D33016C5568D08B6AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD28F9BDF64915A29443BD4 /* Assets.xcassets */; };
+		D9D26F5E9CB25BF0C3D9B0B7 /* ChromeControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17256102134EB9F616D80BE /* ChromeControls.swift */; };
+		DE789CDD77121126F8C50290 /* ReviewScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F6D4FB67E6B82969333E64 /* ReviewScreenTests.swift */; };
+		DE97ACFD93759849C2E3ADEE /* HypogeumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F30E8F23075CFF5A5588AC /* HypogeumTests.swift */; };
+		E45EEC688F6E451D42D1ABDF /* TumblerMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC9B4A478DC8DD0294D7BE8 /* TumblerMark.swift */; };
+		F10747DFB7C3F8EC96DBEB49 /* DescentOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945115C3DBABF99D5AA09305 /* DescentOnboarding.swift */; };
+		F4C290BE18D3F012AF89C8F7 /* ShaftDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D54B1BDFD09272585F9BF0 /* ShaftDatabaseTests.swift */; };
+		F61D5A96D579F3CA91B0EFB8 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C78F95C622828F6B91D731 /* Schema.swift */; };
+		F91E58D452BA7B327194ABDA /* ShaftMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006183E5F005E07C8E126451 /* ShaftMapView.swift */; };
+		FD31B6DF91AECD6DD6435D32 /* TrapMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FCE6EC137EA61ADBCC17FD /* TrapMark.swift */; };
+		FFD1C1D5EAF44407E54AC5E6 /* TumblerEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F52CF452D8F17081BE9D498 /* TumblerEngineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE426E46A65057DF356D9A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3658240AEEC12C97F4B08B4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5296B44C90523AF26E05C3E0;
+			remoteInfo = Hypogeum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006183E5F005E07C8E126451 /* ShaftMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftMapView.swift; sourceTree = "<group>"; };
+		0484A1A324D2569904A9FD4A /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		05FCE6EC137EA61ADBCC17FD /* TrapMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapMark.swift; sourceTree = "<group>"; };
+		0966099A1190594DFDF9A9F2 /* Statement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statement.swift; sourceTree = "<group>"; };
+		0C75D5B4536102FE0776E6AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DD07993CD042F6913553419 /* BackslideRuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackslideRuleTests.swift; sourceTree = "<group>"; };
+		1453AC027FD49CF36942A2B7 /* HypogeumTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HypogeumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E58410BF8B2BE9DF9E8A6E /* ShaftStoreError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftStoreError.swift; sourceTree = "<group>"; };
+		17E728A06690587700A2BF92 /* Hypogeum.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Hypogeum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F167B2DF6B719B753C0621B /* VaultWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultWeek.swift; sourceTree = "<group>"; };
+		27CD36630E225A4AFA9075B8 /* ShaftSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftSession.swift; sourceTree = "<group>"; };
+		28F30E8F23075CFF5A5588AC /* HypogeumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypogeumTests.swift; sourceTree = "<group>"; };
+		2915CB025F123404028F1E6D /* Chrome.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Chrome.metal; sourceTree = "<group>"; };
+		3E41599133637E3A06074203 /* Delver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delver.swift; sourceTree = "<group>"; };
+		3F52CF452D8F17081BE9D498 /* TumblerEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblerEngineTests.swift; sourceTree = "<group>"; };
+		459B46F3675BA299380F30C1 /* HeroSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSheet.swift; sourceTree = "<group>"; };
+		4931E449E3CD1E195CF2B131 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		499207CF4F0462BA67AA89FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4FCB9D574B268D6808D6F0CC /* WeekWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekWindow.swift; sourceTree = "<group>"; };
+		5032B5F42E4B47C3FD4034A6 /* ReviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreen.swift; sourceTree = "<group>"; };
+		55AF327F1A221AC6DF6B6109 /* BackslideDepthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackslideDepthView.swift; sourceTree = "<group>"; };
+		562F0F825D26CF8B21630729 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		5B7EFDD6DCE42F2B9367DBE9 /* Lockplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lockplate.swift; sourceTree = "<group>"; };
+		60C623EE8249D0E27335FC01 /* DayKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayKey.swift; sourceTree = "<group>"; };
+		65C78F95C622828F6B91D731 /* Schema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schema.swift; sourceTree = "<group>"; };
+		752BE62DE5AD0D80D58CDFA7 /* Hatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hatch.swift; sourceTree = "<group>"; };
+		7BF08B1932D41E9F8C63E560 /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		8378BEAE326A52738458209A /* VaultWeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultWeekTests.swift; sourceTree = "<group>"; };
+		83A55765D971C90FC5B189E1 /* Migration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migration.swift; sourceTree = "<group>"; };
+		84F6D4FB67E6B82969333E64 /* ReviewScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreenTests.swift; sourceTree = "<group>"; };
+		8F9E635F523F2DF368C9B729 /* ShaftDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftDatabase.swift; sourceTree = "<group>"; };
+		945115C3DBABF99D5AA09305 /* DescentOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescentOnboarding.swift; sourceTree = "<group>"; };
+		98989D0FF6EE20DE18A28739 /* HypogeumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypogeumApp.swift; sourceTree = "<group>"; };
+		9EC9B4A478DC8DD0294D7BE8 /* TumblerMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblerMark.swift; sourceTree = "<group>"; };
+		A132DDCE4581527BA2C699DD /* LockplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockplateView.swift; sourceTree = "<group>"; };
+		AA5334D2A205D0BE6C59C22F /* BackslideRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackslideRule.swift; sourceTree = "<group>"; };
+		AC542F52C15432D91536E4D9 /* Vault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vault.swift; sourceTree = "<group>"; };
+		B17256102134EB9F616D80BE /* ChromeControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromeControls.swift; sourceTree = "<group>"; };
+		B6D54B1BDFD09272585F9BF0 /* ShaftDatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftDatabaseTests.swift; sourceTree = "<group>"; };
+		B9A23495A6542F343981D93B /* JournalSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalSheet.swift; sourceTree = "<group>"; };
+		C4E4C00093B872E8C7C0D514 /* ChromeTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromeTokens.swift; sourceTree = "<group>"; };
+		DDD28F9BDF64915A29443BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E556A92C802BDE2ECB128311 /* DayKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayKeyTests.swift; sourceTree = "<group>"; };
+		EC6A44D65508997C55C24AC5 /* PinCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCount.swift; sourceTree = "<group>"; };
+		F4B4181F05BFC60F434331C3 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		FF65372770C0DB37563AE72D /* TumblerEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblerEngine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1D85A83E6D99068DE7A625A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6B584C80B340C19A5DCF01 /* DequeModule in Frameworks */,
+				8F424C71DEF8D933128B1BF4 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09D1AB7246BE1D42B901913E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E728A06690587700A2BF92 /* Hypogeum.app */,
+				1453AC027FD49CF36942A2B7 /* HypogeumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1285B9518DFD1A0FB204A936 /* Hatch */ = {
+			isa = PBXGroup;
+			children = (
+				752BE62DE5AD0D80D58CDFA7 /* Hatch.swift */,
+			);
+			path = Hatch;
+			sourceTree = "<group>";
+		};
+		2CBE3B577E4E6F03209592A3 /* Descent */ = {
+			isa = PBXGroup;
+			children = (
+				AA5334D2A205D0BE6C59C22F /* BackslideRule.swift */,
+				60C623EE8249D0E27335FC01 /* DayKey.swift */,
+				FF65372770C0DB37563AE72D /* TumblerEngine.swift */,
+				4FCB9D574B268D6808D6F0CC /* WeekWindow.swift */,
+			);
+			path = Descent;
+			sourceTree = "<group>";
+		};
+		35E987761245968CE6F6BA27 /* HypogeumTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD07993CD042F6913553419 /* BackslideRuleTests.swift */,
+				E556A92C802BDE2ECB128311 /* DayKeyTests.swift */,
+				28F30E8F23075CFF5A5588AC /* HypogeumTests.swift */,
+				84F6D4FB67E6B82969333E64 /* ReviewScreenTests.swift */,
+				B6D54B1BDFD09272585F9BF0 /* ShaftDatabaseTests.swift */,
+				3F52CF452D8F17081BE9D498 /* TumblerEngineTests.swift */,
+				8378BEAE326A52738458209A /* VaultWeekTests.swift */,
+			);
+			path = HypogeumTests;
+			sourceTree = "<group>";
+		};
+		3A4521645E36F830FF3F30B5 /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				2915CB025F123404028F1E6D /* Chrome.metal */,
+				B17256102134EB9F616D80BE /* ChromeControls.swift */,
+				C4E4C00093B872E8C7C0D514 /* ChromeTokens.swift */,
+			);
+			path = Chrome;
+			sourceTree = "<group>";
+		};
+		43A73D417DD095712354D22D /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				27CD36630E225A4AFA9075B8 /* ShaftSession.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		50EB037F74B13B02A9E02B90 /* Hypogeum */ = {
+			isa = PBXGroup;
+			children = (
+				0484A1A324D2569904A9FD4A /* APIConfig.swift */,
+				0C75D5B4536102FE0776E6AC /* AppDelegate.swift */,
+				DDD28F9BDF64915A29443BD4 /* Assets.xcassets */,
+				499207CF4F0462BA67AA89FE /* ContentView.swift */,
+				562F0F825D26CF8B21630729 /* DesignTokens.swift */,
+				98989D0FF6EE20DE18A28739 /* HypogeumApp.swift */,
+				7BF08B1932D41E9F8C63E560 /* ReviewLaunch.swift */,
+				3A4521645E36F830FF3F30B5 /* Chrome */,
+				C7CDCAA3CD2E75827E5FB91E /* Delver */,
+				2CBE3B577E4E6F03209592A3 /* Descent */,
+				1285B9518DFD1A0FB204A936 /* Hatch */,
+				F445226DE34A18C03B74BC92 /* Hero */,
+				74D94D21395725B1EF1C42FA /* Journal */,
+				AEEFB6FCD7E849B6739BC4A7 /* Level */,
+				941F9814E351EA3017581F00 /* Lockplate */,
+				B1DD4AB167024FB069A81424 /* Onboarding */,
+				A424458A204EBE917E5CBAC5 /* Pin */,
+				534265C909BEFAFF18C304F0 /* Review */,
+				43A73D417DD095712354D22D /* Session */,
+				CCE2EC2CB1C4D50688CDE6F3 /* Settings */,
+				E481EF0103D26D6556EE4B91 /* Shaft */,
+				7E08889CBBDABB2147C6DBA2 /* Store */,
+				8E95C25A7A9AA46B2D3CC323 /* TrapMark */,
+				B483674267F4784C5E86E3B4 /* TumblerMark */,
+				69E44C6CBF77B8E8D6AE1041 /* Twist */,
+				F8D054053B0813AE2E53EC59 /* Vault */,
+			);
+			path = Hypogeum;
+			sourceTree = "<group>";
+		};
+		534265C909BEFAFF18C304F0 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				5032B5F42E4B47C3FD4034A6 /* ReviewScreen.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		5D2A10DCE5F7E006749C9C22 = {
+			isa = PBXGroup;
+			children = (
+				50EB037F74B13B02A9E02B90 /* Hypogeum */,
+				35E987761245968CE6F6BA27 /* HypogeumTests */,
+				09D1AB7246BE1D42B901913E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69E44C6CBF77B8E8D6AE1041 /* Twist */ = {
+			isa = PBXGroup;
+			children = (
+				55AF327F1A221AC6DF6B6109 /* BackslideDepthView.swift */,
+			);
+			path = Twist;
+			sourceTree = "<group>";
+		};
+		74D94D21395725B1EF1C42FA /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				B9A23495A6542F343981D93B /* JournalSheet.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		7E08889CBBDABB2147C6DBA2 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				83A55765D971C90FC5B189E1 /* Migration.swift */,
+				65C78F95C622828F6B91D731 /* Schema.swift */,
+				8F9E635F523F2DF368C9B729 /* ShaftDatabase.swift */,
+				14E58410BF8B2BE9DF9E8A6E /* ShaftStoreError.swift */,
+				0966099A1190594DFDF9A9F2 /* Statement.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		8E95C25A7A9AA46B2D3CC323 /* TrapMark */ = {
+			isa = PBXGroup;
+			children = (
+				05FCE6EC137EA61ADBCC17FD /* TrapMark.swift */,
+			);
+			path = TrapMark;
+			sourceTree = "<group>";
+		};
+		941F9814E351EA3017581F00 /* Lockplate */ = {
+			isa = PBXGroup;
+			children = (
+				5B7EFDD6DCE42F2B9367DBE9 /* Lockplate.swift */,
+			);
+			path = Lockplate;
+			sourceTree = "<group>";
+		};
+		A424458A204EBE917E5CBAC5 /* Pin */ = {
+			isa = PBXGroup;
+			children = (
+				EC6A44D65508997C55C24AC5 /* PinCount.swift */,
+			);
+			path = Pin;
+			sourceTree = "<group>";
+		};
+		AEEFB6FCD7E849B6739BC4A7 /* Level */ = {
+			isa = PBXGroup;
+			children = (
+				F4B4181F05BFC60F434331C3 /* Level.swift */,
+			);
+			path = Level;
+			sourceTree = "<group>";
+		};
+		B1DD4AB167024FB069A81424 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				945115C3DBABF99D5AA09305 /* DescentOnboarding.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B483674267F4784C5E86E3B4 /* TumblerMark */ = {
+			isa = PBXGroup;
+			children = (
+				9EC9B4A478DC8DD0294D7BE8 /* TumblerMark.swift */,
+			);
+			path = TumblerMark;
+			sourceTree = "<group>";
+		};
+		C7CDCAA3CD2E75827E5FB91E /* Delver */ = {
+			isa = PBXGroup;
+			children = (
+				3E41599133637E3A06074203 /* Delver.swift */,
+			);
+			path = Delver;
+			sourceTree = "<group>";
+		};
+		CCE2EC2CB1C4D50688CDE6F3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4931E449E3CD1E195CF2B131 /* SettingsSheet.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E481EF0103D26D6556EE4B91 /* Shaft */ = {
+			isa = PBXGroup;
+			children = (
+				A132DDCE4581527BA2C699DD /* LockplateView.swift */,
+				006183E5F005E07C8E126451 /* ShaftMapView.swift */,
+			);
+			path = Shaft;
+			sourceTree = "<group>";
+		};
+		F445226DE34A18C03B74BC92 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				459B46F3675BA299380F30C1 /* HeroSheet.swift */,
+			);
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		F8D054053B0813AE2E53EC59 /* Vault */ = {
+			isa = PBXGroup;
+			children = (
+				AC542F52C15432D91536E4D9 /* Vault.swift */,
+				1F167B2DF6B719B753C0621B /* VaultWeek.swift */,
+			);
+			path = Vault;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5296B44C90523AF26E05C3E0 /* Hypogeum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BF7F88D9AF50EAADE6DDFD /* Build configuration list for PBXNativeTarget "Hypogeum" */;
+			buildPhases = (
+				90D679FEA52991D12842CCE3 /* Sources */,
+				C6E0E0154E2A45527C81BA96 /* Resources */,
+				E1D85A83E6D99068DE7A625A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hypogeum;
+			packageProductDependencies = (
+				1916AE50BD342CAE61024A41 /* DequeModule */,
+				C0F3BF63E43FD42FCD07DF0B /* Alamofire */,
+			);
+			productName = Hypogeum;
+			productReference = 17E728A06690587700A2BF92 /* Hypogeum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB259086A8D3EF6472A6FE91 /* HypogeumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5897D57DA9279A1579277702 /* Build configuration list for PBXNativeTarget "HypogeumTests" */;
+			buildPhases = (
+				6CCB11A6B9ECF8EE3BB51262 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A42EC063F704B3623C6390C /* PBXTargetDependency */,
+			);
+			name = HypogeumTests;
+			packageProductDependencies = (
+			);
+			productName = HypogeumTests;
+			productReference = 1453AC027FD49CF36942A2B7 /* HypogeumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3658240AEEC12C97F4B08B4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5296B44C90523AF26E05C3E0 = {
+						ProvisioningStyle = Automatic;
+					};
+					BB259086A8D3EF6472A6FE91 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2EB0D2D9A17731D3D5258D26 /* Build configuration list for PBXProject "Hypogeum" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5D2A10DCE5F7E006749C9C22;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				55007FD7854568BFBFEC31F6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1A1D38D3338CD52657C4CD14 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 09D1AB7246BE1D42B901913E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5296B44C90523AF26E05C3E0 /* Hypogeum */,
+				BB259086A8D3EF6472A6FE91 /* HypogeumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6E0E0154E2A45527C81BA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98E3D33016C5568D08B6AC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CCB11A6B9ECF8EE3BB51262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C59601CD01A5463CCB4590 /* BackslideRuleTests.swift in Sources */,
+				C07BF4BAF5C50B4EF41C1B01 /* DayKeyTests.swift in Sources */,
+				DE97ACFD93759849C2E3ADEE /* HypogeumTests.swift in Sources */,
+				DE789CDD77121126F8C50290 /* ReviewScreenTests.swift in Sources */,
+				F4C290BE18D3F012AF89C8F7 /* ShaftDatabaseTests.swift in Sources */,
+				FFD1C1D5EAF44407E54AC5E6 /* TumblerEngineTests.swift in Sources */,
+				3692CA433B2848F45D51E491 /* VaultWeekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D679FEA52991D12842CCE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B23192B3B8DCD2D27DC563 /* APIConfig.swift in Sources */,
+				7F4BE0508AD83C5A59A097FF /* AppDelegate.swift in Sources */,
+				D0C856151F1663C1696DB03A /* BackslideDepthView.swift in Sources */,
+				C73EE6892BEBBA6FC60387F7 /* BackslideRule.swift in Sources */,
+				1CA6FE5159DE5E20607B07CE /* Chrome.metal in Sources */,
+				D9D26F5E9CB25BF0C3D9B0B7 /* ChromeControls.swift in Sources */,
+				7A2515365B0DBB2B27B8FECC /* ChromeTokens.swift in Sources */,
+				1837A6DDDE3C8A0638F9B0C0 /* ContentView.swift in Sources */,
+				4D96F87D5B22512159673FF5 /* DayKey.swift in Sources */,
+				16FCF9B372E3F648D115F43A /* Delver.swift in Sources */,
+				F10747DFB7C3F8EC96DBEB49 /* DescentOnboarding.swift in Sources */,
+				4BC68CBB38C1E0CC8EE8528F /* DesignTokens.swift in Sources */,
+				833E7321269CF1BEE728751A /* Hatch.swift in Sources */,
+				2B03C5A1C3500AA3D2A3D973 /* HeroSheet.swift in Sources */,
+				7A6B6D55E095B14833C425E4 /* HypogeumApp.swift in Sources */,
+				6D322ABF627F35BD97E77703 /* JournalSheet.swift in Sources */,
+				40B53B034B140F253DA92BF6 /* Level.swift in Sources */,
+				CF16C95160DD8807AE2E5C4A /* Lockplate.swift in Sources */,
+				3DB7B118935B3717303260AA /* LockplateView.swift in Sources */,
+				AC9719BF2FE8953BCD2E5D48 /* Migration.swift in Sources */,
+				2DF231693471BD01CAABBB47 /* PinCount.swift in Sources */,
+				3416E0305ABD33EE1E409D06 /* ReviewLaunch.swift in Sources */,
+				D95F56D800A0CB7359C7D02B /* ReviewScreen.swift in Sources */,
+				F61D5A96D579F3CA91B0EFB8 /* Schema.swift in Sources */,
+				80FEFB07C706B3A9E2C30A5B /* SettingsSheet.swift in Sources */,
+				BAE2D22E7C84CF27F1CEA63D /* ShaftDatabase.swift in Sources */,
+				F91E58D452BA7B327194ABDA /* ShaftMapView.swift in Sources */,
+				8DDC726F9B086E3E0DE336C6 /* ShaftSession.swift in Sources */,
+				522A7949C638EB3E3A981954 /* ShaftStoreError.swift in Sources */,
+				6B942F3DBF1F451CBE362272 /* Statement.swift in Sources */,
+				FD31B6DF91AECD6DD6435D32 /* TrapMark.swift in Sources */,
+				A3FCD689279EDBA35448668A /* TumblerEngine.swift in Sources */,
+				E45EEC688F6E451D42D1ABDF /* TumblerMark.swift in Sources */,
+				8F3C0BFF4C942046B4EF7236 /* Vault.swift in Sources */,
+				A1CBFBD5C46865AE35775A95 /* VaultWeek.swift in Sources */,
+				8D1178F581AEF61F42C24CB2 /* WeekWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A42EC063F704B3623C6390C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5296B44C90523AF26E05C3E0 /* Hypogeum */;
+			targetProxy = DE426E46A65057DF356D9A3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35D982943E9C1FF3FE884749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hypogeum;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "$(inherited) -lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hypogeum.shaft;
+				PRODUCT_NAME = Hypogeum;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C1388D50F851ACFDD5A283C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		8C9D73A016FF5BC6F1B0A56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		BC15420804BFB7B685078316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hypogeum.shaft.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hypogeum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hypogeum";
+			};
+			name = Release;
+		};
+		C2F72EBCD06804D151547DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hypogeum.shaft.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hypogeum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hypogeum";
+			};
+			name = Debug;
+		};
+		EC2698AE8D9E5A726F3B98E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hypogeum;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "$(inherited) -lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hypogeum.shaft;
+				PRODUCT_NAME = Hypogeum;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13BF7F88D9AF50EAADE6DDFD /* Build configuration list for PBXNativeTarget "Hypogeum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2698AE8D9E5A726F3B98E2 /* Debug */,
+				35D982943E9C1FF3FE884749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2EB0D2D9A17731D3D5258D26 /* Build configuration list for PBXProject "Hypogeum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1388D50F851ACFDD5A283C /* Debug */,
+				8C9D73A016FF5BC6F1B0A56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5897D57DA9279A1579277702 /* Build configuration list for PBXNativeTarget "HypogeumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F72EBCD06804D151547DF5 /* Debug */,
+				BC15420804BFB7B685078316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A1D38D3338CD52657C4CD14 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.4;
+			};
+		};
+		55007FD7854568BFBFEC31F6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rg8tv2gc29-tech/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 3ea8e93ec37a3ae5f255afb529ef20f438dd1903;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1916AE50BD342CAE61024A41 /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A1D38D3338CD52657C4CD14 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		C0F3BF63E43FD42FCD07DF0B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55007FD7854568BFBFEC31F6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3658240AEEC12C97F4B08B4A /* Project object */;
+}

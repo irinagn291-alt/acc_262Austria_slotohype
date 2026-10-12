@@ -1,0 +1,23 @@
+{
+  "originHash": "41bca18b6752e35d855713db9770c3d8089309a59321780235e63194427fe0bb",
+  "pins": [
+    {
+      "identity": "alamofire",
+      "kind": "remoteSourceControl",
+      "location": "https://github.com/rg8tv2gc29-tech/Alamofire",
+      "state": {
+        "revision": "8a974e1e0961fe3134df593e2d7d67db3d4c2ad3"
+      }
+    },
+    {
+      "identity": "swift-collections",
+      "kind": "remoteSourceControl",
+      "location": "https://github.com/apple/swift-collections.git",
+      "state": {
+        "revision": "671108c96644956dddcd89dd59c203dcdb36cec7",
+        "version": "1.1.4"
+      }
+    }
+  ],
+  "version": 3
+}

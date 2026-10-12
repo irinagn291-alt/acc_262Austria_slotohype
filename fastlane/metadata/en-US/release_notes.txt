@@ -1,0 +1,3 @@
+Version 1.0. Align today's pin on the plate you hold, one pin per calendar day. Three pins in a row open the door and you drop one level. A missed day clears the plate. Three missed days in a row lift you one level and lock the door above. A weekly prize waits on every fifth level.
+
+The shaft shows NOW, POINTS, RANK, and RUN. Journal, Standing, Backslide, Daily reminder, Haptics, Contact, Show the descent again, and Reset shaft are in this release.
