@@ -1,4 +1,4 @@
-<!-- gf-brief source=5c7b1b858186f197898e125b531965bf6acd80c10dfc8a9cdc5b3d091b833746 written=2026-10-12T19:14:23+03:00 -->
+<!-- gf-brief source=5c7b1b858186f197898e125b531965bf6acd80c10dfc8a9cdc5b3d091b833746 written=2026-10-12T19:17:59+03:00 -->
 # Hypogeum
 ## What it is
 Hypogeum is a once-a-day check-in for people who will do one action a day to go deeper, not a list that advances itself. Each day you align one pin on today's plate. Three pins in a row open the door and you drop one level; a missed day clears the plate, and three missed days in a row lift you one level and lock the door above. A weekly prize waits on every fifth level.
